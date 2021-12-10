@@ -1,0 +1,77 @@
+[2021-12-10 17:25:25] local.ERROR: Uncaught ReflectionException: Class "Tymon\JWTAuth\Middleware\GetUserFromToken" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionMethod->__construct('Tymon\\JWTAuth\\M...', 'handle')
+#1 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"Tymon\\JWTAuth\\Middleware\\GetUserFromToken\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionMethod->__construct('Tymon\\\\JWTAuth\\\\M...', 'handle')
+#1 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-10 17:31:10] local.DEBUG: Login Success: Super Admin, IP:127.0.0.1  
+[2021-12-10 17:32:06] local.DEBUG: Logout Success. Super Admin  
+[2021-12-10 17:52:28] local.DEBUG: Login Success: Super Admin, IP:127.0.0.1  
+[2021-12-10 18:04:54] local.DEBUG: Tags List | User:Super Admin (ID:1)  
+[2021-12-10 18:05:08] local.DEBUG: Tags Create | User:Super Admin (ID:1)  
+[2021-12-10 23:49:35] local.ERROR: The "E:\xamp\htdocs\laravel\Articles-master\Modules\Tag\Providers/../Console" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers/../Console\" directory does not exist. at E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\symfony\\finder\\Finder.php:592)
+[stacktrace]
+#0 E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers\\TagServiceProvider.php(118): Symfony\\Component\\Finder\\Finder->in('E:\\\\xamp\\\\htdocs\\\\...')
+#1 E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers\\TagServiceProvider.php(37): Modules\\Tag\\Providers\\TagServiceProvider->registerCommands('\\\\Modules\\\\Tag\\\\Co...')
+#2 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Modules\\Tag\\Providers\\TagServiceProvider->boot()
+#3 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(924): Illuminate\\Container\\Container->call(Array)
+#8 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(905): Illuminate\\Foundation\\Application->bootProvider(Object(Modules\\Tag\\Providers\\TagServiceProvider))
+#9 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Modules\\Tag\\Providers\\TagServiceProvider), 58)
+#10 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(906): array_walk(Array, Object(Closure))
+#11 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#12 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#13 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#14 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#15 E:\\xamp\\htdocs\\laravel\\Articles-master\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 {main}
+"} 
+[2021-12-10 23:51:49] local.ERROR: The "E:\xamp\htdocs\laravel\Articles-master\Modules\Tag\Providers/../Console" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers/../Console\" directory does not exist. at E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\symfony\\finder\\Finder.php:592)
+[stacktrace]
+#0 E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers\\TagServiceProvider.php(118): Symfony\\Component\\Finder\\Finder->in('E:\\\\xamp\\\\htdocs\\\\...')
+#1 E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers\\TagServiceProvider.php(37): Modules\\Tag\\Providers\\TagServiceProvider->registerCommands('\\\\Modules\\\\Tag\\\\Co...')
+#2 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Modules\\Tag\\Providers\\TagServiceProvider->boot()
+#3 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(924): Illuminate\\Container\\Container->call(Array)
+#8 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(905): Illuminate\\Foundation\\Application->bootProvider(Object(Modules\\Tag\\Providers\\TagServiceProvider))
+#9 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Modules\\Tag\\Providers\\TagServiceProvider), 58)
+#10 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(906): array_walk(Array, Object(Closure))
+#11 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#12 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#13 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#14 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#15 E:\\xamp\\htdocs\\laravel\\Articles-master\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 {main}
+"} 
+[2021-12-10 23:53:07] local.ERROR: The "E:\xamp\htdocs\laravel\Articles-master\Modules\Tag\Providers/../Console" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers/../Console\" directory does not exist. at E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\symfony\\finder\\Finder.php:592)
+[stacktrace]
+#0 E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers\\TagServiceProvider.php(118): Symfony\\Component\\Finder\\Finder->in('E:\\\\xamp\\\\htdocs\\\\...')
+#1 E:\\xamp\\htdocs\\laravel\\Articles-master\\Modules\\Tag\\Providers\\TagServiceProvider.php(37): Modules\\Tag\\Providers\\TagServiceProvider->registerCommands('\\\\Modules\\\\Tag\\\\Co...')
+#2 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Modules\\Tag\\Providers\\TagServiceProvider->boot()
+#3 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(924): Illuminate\\Container\\Container->call(Array)
+#8 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(905): Illuminate\\Foundation\\Application->bootProvider(Object(Modules\\Tag\\Providers\\TagServiceProvider))
+#9 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Modules\\Tag\\Providers\\TagServiceProvider), 58)
+#10 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(906): array_walk(Array, Object(Closure))
+#11 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#12 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#13 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#14 E:\\xamp\\htdocs\\laravel\\Articles-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#15 E:\\xamp\\htdocs\\laravel\\Articles-master\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 {main}
+"} 

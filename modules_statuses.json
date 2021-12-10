@@ -1,0 +1,7 @@
+{
+    "Article": true,
+    "Tag": true,
+    "Comment": true,
+    "Test": true,
+    "Advertisement": true
+}

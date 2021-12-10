@@ -1,0 +1,1 @@
+<?php echo setting('google_analytics'); ?><?php /**PATH E:\xamp\htdocs\laravel\laravel-articles\resources\views/components/google-analytics.blade.php ENDPATH**/ ?>
